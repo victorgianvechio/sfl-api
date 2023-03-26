@@ -172,7 +172,7 @@ class SolarFlareTicketController {
           processingTime: `${endTimeInSeconds} seconds`,
           title: 'Solar Flare Ticket Ranking',
           updatedAt,
-          data: rankingResult,
+          farms: rankingResult,
         },
         null,
         4

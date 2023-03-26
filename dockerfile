@@ -9,5 +9,6 @@ RUN \
   apt-get update && \
   apt-get install -y google-chrome-stable && \
   rm -rf /var/lib/apt/lists/*s
+RUN yarn env
 EXPOSE 8080
 CMD yarn prod

@@ -3,6 +3,7 @@ import path from 'path';
 
 import { monit } from './cron';
 import { publicPath } from './utils/paths';
+import allowCors from './middlewares/cors';
 
 import solarFlareTicketRoutes from './app/SolarFlareTicket/solarFlareTicket.routes';
 
@@ -17,6 +18,7 @@ class App {
 
   middlewares() {
     this.server.use(express.json());
+    this.server.use(allowCors);
     this.server.use(express.static('./public'));
     this.server.use('/public', express.static('./public'));
   }

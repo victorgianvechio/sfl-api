@@ -2,7 +2,7 @@ import './config/dotenv';
 import App from './App';
 import { createCacheDir } from './utils/paths';
 
-const port = process.env.PORT || 8080;
+const port = process.env.APP_PORT || 8080;
 
 createCacheDir();
 
