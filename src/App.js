@@ -25,12 +25,12 @@ class App {
   }
 
   routes() {
-    this.server.get('/home', (req, res) => {
-      res.sendFile(path.resolve(publicPath, 'index.html'));
-    });
+    // this.server.get('/home', (req, res) => {
+    //   res.sendFile(path.resolve(publicPath, 'index.html'));
+    // });
 
     this.server.get('/', (req, res) => {
-      res.redirect('/home');
+      res.redirect('/api/v1');
     });
 
     this.server.get('/api/v1', (req, res) => {

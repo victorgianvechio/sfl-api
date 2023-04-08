@@ -5,6 +5,7 @@ import authMiddleware from '../../middlewares/auth';
 
 const routes = new Router();
 
-routes.get('/ranking', authMiddleware, SolarFlareTicketController.ranking);
+// routes.get('/ranking', authMiddleware, SolarFlareTicketController.ranking);
+routes.get('/ranking', SolarFlareTicketController.ranking);
 
 export default routes;

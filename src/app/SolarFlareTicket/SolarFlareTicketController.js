@@ -25,6 +25,8 @@ class SolarFlareTicketController {
   async generateFile() {
     const NUMBER_OF_PAGES = SolarFlareTicket.pages;
     const NUMBER_OF_FARMS = SolarFlareTicket.farms;
+    const ua =
+      'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36';
 
     let rankingResult = [];
 
@@ -40,14 +42,17 @@ class SolarFlareTicketController {
 
     console.log('Criando page');
     const page = await browser.newPage();
+    await page.setUserAgent(ua);
     console.log('Page criada');
 
     console.log('Iniciando link');
     try {
       await page.goto(SolarFlareTicket.url, {
-        waitUntil: 'load',
-        timeout: 0,
+        waitUntil: 'domcontentloaded',
+        timeout: 5000,
       });
+      await page.waitForSelector('.visual_result__tveha');
+      await page.waitForSelector('.table_table__fuS_N');
     } catch (err) {
       console.log(err);
       await browser.close();
@@ -77,7 +82,7 @@ class SolarFlareTicketController {
             // Extrai os IDS
             for (let row = 1; row <= NUMBER_OF_FARMS; row++) {
               id = await document.querySelector(
-                '#__next > div > main > div:nth-child(1) > div > section > div > div > article:nth-child(3) > div > div > table > tbody > tr:nth-child(' +
+                '#__next > div > main > div:nth-child(1) > div > section > div > div > article:nth-child(3) > div > div.visual_result__tveha > table > tbody > tr:nth-child(' +
                   row +
                   ') > td:nth-child(2) > div'
               ).innerText;
