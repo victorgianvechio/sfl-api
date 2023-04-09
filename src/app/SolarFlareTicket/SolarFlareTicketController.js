@@ -49,7 +49,7 @@ class SolarFlareTicketController {
     try {
       await page.goto(SolarFlareTicket.url, {
         waitUntil: 'domcontentloaded',
-        timeout: 5000,
+        timeout: 0,
       });
       await page.waitForSelector('.visual_result__tveha');
       await page.waitForSelector('.table_table__fuS_N');
