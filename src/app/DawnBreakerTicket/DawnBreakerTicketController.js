@@ -140,6 +140,7 @@ class DawnBreakerTicketController {
               Description: value.hayseedHank.chore.description,
               Requirement: value.hayseedHank.chore.requirement,
               Activity: value.hayseedHank.chore.activity,
+              Completed: value.hayseedHank.dawnBreakerChoresCompleted,
             },
           };
           rankingResult.push(obj);
