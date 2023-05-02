@@ -5,7 +5,7 @@ export const SolarFlareTicket = {
 };
 
 export const DawnBreakerTicket = {
-  pages: 50,
+  pages: 80,
   farms: 25,
   url: 'https://dune.com/sfldunenerds/dawnbreaker',
 };
