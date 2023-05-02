@@ -6,7 +6,7 @@ import { publicPath } from './utils/paths';
 import allowCors from './middlewares/cors';
 
 import solarFlareTicketRoutes from './app/SolarFlareTicket/solarFlareTicket.routes';
-import offerRoutes from './app/Offer/offer.routes';
+import dawnBreakerTicketRoutes from './app/DawnBreakerTicket/dawnBreakerTicket.routes';
 
 class App {
   constructor() {
@@ -40,7 +40,7 @@ class App {
     });
 
     this.server.use('/api/v1/SolarFlareTicket', solarFlareTicketRoutes);
-    this.server.use('/api/v1/Offer', offerRoutes);
+    this.server.use('/api/v1/DawnBreakerTicket', dawnBreakerTicketRoutes);
   }
 }
 
