@@ -35,7 +35,7 @@ class DawnBreakerTicketController {
 
     console.log('Criando browser');
     const browser = await puppeteer.launch({
-      headless: true,
+      headless: false,
       args: ['--no-sandbox', '--disable-setuid-sandbox', '--single-process'],
     });
     console.log('Browser criado');
