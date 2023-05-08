@@ -71,7 +71,8 @@ class DawnBreakerTicketController {
 
         // Localiza o botão next
         const nextButton = await document.querySelector(
-          '#__next > div > main > div:nth-child(1) > div > section > div > div > article:nth-child(3) > div > ul > li:nth-child(6) > button'
+          // '#__next > div > main > div:nth-child(1) > div > section > div > div > article:nth-child(3) > div > ul > li:nth-child(6) > button'
+          '#results > div > div._____slug___results__LdsXL > div > ul > li:nth-child(6) > button'
         );
 
         try {
@@ -82,10 +83,15 @@ class DawnBreakerTicketController {
             // Extrai os IDS
             for (let row = 1; row <= NUMBER_OF_FARMS; row++) {
               id = await document.querySelector(
-                '#__next > div > main > div:nth-child(1) > div > section > div > div > article:nth-child(3) > div > div.visual_result__tveha > table > tbody > tr:nth-child(' +
+                '#results > div > div._____slug___results__LdsXL > div > div > table > tbody > tr:nth-child(' +
                   row +
                   ') > td:nth-child(2) > div'
               ).innerText;
+              // id = await document.querySelector(
+              //   '#__next > div > main > div:nth-child(1) > div > section > div > div > article:nth-child(3) > div > div.visual_result__tveha > table > tbody > tr:nth-child(' +
+              //     row +
+              //     ') > td:nth-child(2) > div'
+              // ).innerText;
               list.push(Number(id));
               console.log('row: ' + row + ' - id: ' + id);
             }
