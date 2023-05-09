@@ -7,6 +7,7 @@ import allowCors from './middlewares/cors';
 
 import solarFlareTicketRoutes from './app/SolarFlareTicket/solarFlareTicket.routes';
 import dawnBreakerTicketRoutes from './app/DawnBreakerTicket/dawnBreakerTicket.routes';
+import radianceLanternRoutes from './app/RadianceLantern/radianceLantern.routes';
 
 class App {
   constructor() {
@@ -41,6 +42,7 @@ class App {
 
     this.server.use('/api/v1/SolarFlareTicket', solarFlareTicketRoutes);
     this.server.use('/api/v1/DawnBreakerTicket', dawnBreakerTicketRoutes);
+    this.server.use('/api/v1/RadianceLantern', radianceLanternRoutes);
   }
 }
 

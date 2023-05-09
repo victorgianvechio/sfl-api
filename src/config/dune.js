@@ -15,3 +15,9 @@ export const DawnBreakerTicket = {
   farms: 25,
   url: 'https://dune.com/queries/2427450/3987042',
 };
+
+export const RadianceLantern = {
+  pages: 40,
+  farms: 25,
+  url: 'https://dune.com/queries/2451056/4028621',
+};

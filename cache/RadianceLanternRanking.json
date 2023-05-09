@@ -1,0 +1,1962 @@
+{
+    "success": true,
+    "processingTime": "58.441 seconds",
+    "title": "Radiance Lantern Ranking",
+    "updatedAt": "2023-05-09T02:40:59.205Z",
+    "farms": [
+        {
+            "Ranking": 1,
+            "FarmID": "197",
+            "LanternsCraftedByWeek": {
+                "1": 29,
+                "2": 27
+            }
+        },
+        {
+            "Ranking": 2,
+            "FarmID": "373",
+            "LanternsCraftedByWeek": {
+                "1": 10,
+                "2": 6
+            }
+        },
+        {
+            "Ranking": 3,
+            "FarmID": "730",
+            "LanternsCraftedByWeek": {
+                "1": 19,
+                "2": 5
+            }
+        },
+        {
+            "Ranking": 4,
+            "FarmID": "785",
+            "LanternsCraftedByWeek": {
+                "1": 10,
+                "2": 5
+            }
+        },
+        {
+            "Ranking": 5,
+            "FarmID": "1163",
+            "LanternsCraftedByWeek": {
+                "1": 8,
+                "2": 6
+            }
+        },
+        {
+            "Ranking": 6,
+            "FarmID": "1696",
+            "LanternsCraftedByWeek": {
+                "1": 20,
+                "2": 4
+            }
+        },
+        {
+            "Ranking": 7,
+            "FarmID": "1854",
+            "LanternsCraftedByWeek": {
+                "1": 5,
+                "2": 5
+            }
+        },
+        {
+            "Ranking": 8,
+            "FarmID": "2253",
+            "LanternsCraftedByWeek": {
+                "1": 5,
+                "2": 5
+            }
+        },
+        {
+            "Ranking": 9,
+            "FarmID": "3647",
+            "LanternsCraftedByWeek": {
+                "1": 7,
+                "2": 10
+            }
+        },
+        {
+            "Ranking": 10,
+            "FarmID": "4344",
+            "LanternsCraftedByWeek": {
+                "1": 12,
+                "2": 9
+            }
+        },
+        {
+            "Ranking": 11,
+            "FarmID": "4375",
+            "LanternsCraftedByWeek": {
+                "1": 17,
+                "2": 5
+            }
+        },
+        {
+            "Ranking": 12,
+            "FarmID": "5273",
+            "LanternsCraftedByWeek": {
+                "1": 6,
+                "2": 5
+            }
+        },
+        {
+            "Ranking": 13,
+            "FarmID": "6986",
+            "LanternsCraftedByWeek": {
+                "1": 6,
+                "2": 5
+            }
+        },
+        {
+            "Ranking": 14,
+            "FarmID": "7015",
+            "LanternsCraftedByWeek": {
+                "1": 9,
+                "2": 7
+            }
+        },
+        {
+            "Ranking": 15,
+            "FarmID": "8484",
+            "LanternsCraftedByWeek": {
+                "1": 4,
+                "2": 4
+            }
+        },
+        {
+            "Ranking": 16,
+            "FarmID": "8502",
+            "LanternsCraftedByWeek": {
+                "1": 10,
+                "2": 5
+            }
+        },
+        {
+            "Ranking": 17,
+            "FarmID": "8720",
+            "LanternsCraftedByWeek": {
+                "1": 5,
+                "2": 5
+            }
+        },
+        {
+            "Ranking": 18,
+            "FarmID": "8734",
+            "LanternsCraftedByWeek": {
+                "1": 9,
+                "2": 6
+            }
+        },
+        {
+            "Ranking": 19,
+            "FarmID": "8804",
+            "LanternsCraftedByWeek": {
+                "1": 5,
+                "2": 5
+            }
+        },
+        {
+            "Ranking": 20,
+            "FarmID": "9294",
+            "LanternsCraftedByWeek": {
+                "1": 9,
+                "2": 7
+            }
+        },
+        {
+            "Ranking": 21,
+            "FarmID": "10304",
+            "LanternsCraftedByWeek": {
+                "1": 5,
+                "2": 6
+            }
+        },
+        {
+            "Ranking": 22,
+            "FarmID": "10802",
+            "LanternsCraftedByWeek": {
+                "1": 12,
+                "2": 5
+            }
+        },
+        {
+            "Ranking": 23,
+            "FarmID": "12416",
+            "LanternsCraftedByWeek": {
+                "1": 6,
+                "2": 5
+            }
+        },
+        {
+            "Ranking": 24,
+            "FarmID": "15817",
+            "LanternsCraftedByWeek": {
+                "1": 11,
+                "2": 11
+            }
+        },
+        {
+            "Ranking": 25,
+            "FarmID": "16409",
+            "LanternsCraftedByWeek": {
+                "1": 17,
+                "2": 5
+            }
+        },
+        {
+            "Ranking": 26,
+            "FarmID": "16683",
+            "LanternsCraftedByWeek": {
+                "1": 5,
+                "2": 10
+            }
+        },
+        {
+            "Ranking": 27,
+            "FarmID": "19707",
+            "LanternsCraftedByWeek": {
+                "1": 9,
+                "2": 4
+            }
+        },
+        {
+            "Ranking": 28,
+            "FarmID": "21303",
+            "LanternsCraftedByWeek": {
+                "1": 6,
+                "2": 5
+            }
+        },
+        {
+            "Ranking": 29,
+            "FarmID": "21641",
+            "LanternsCraftedByWeek": {
+                "1": 7,
+                "2": 6
+            }
+        },
+        {
+            "Ranking": 30,
+            "FarmID": "29850",
+            "LanternsCraftedByWeek": {
+                "1": 4,
+                "2": 5
+            }
+        },
+        {
+            "Ranking": 31,
+            "FarmID": "31247",
+            "LanternsCraftedByWeek": {
+                "1": 3,
+                "2": 7
+            }
+        },
+        {
+            "Ranking": 32,
+            "FarmID": "31579",
+            "LanternsCraftedByWeek": {
+                "1": 5,
+                "2": 5
+            }
+        },
+        {
+            "Ranking": 33,
+            "FarmID": "35116",
+            "LanternsCraftedByWeek": {
+                "1": 10,
+                "2": 5
+            }
+        },
+        {
+            "Ranking": 34,
+            "FarmID": "36460",
+            "LanternsCraftedByWeek": {
+                "1": 11,
+                "2": 5
+            }
+        },
+        {
+            "Ranking": 35,
+            "FarmID": "36793",
+            "LanternsCraftedByWeek": {
+                "1": 7,
+                "2": 5
+            }
+        },
+        {
+            "Ranking": 36,
+            "FarmID": "38110",
+            "LanternsCraftedByWeek": {
+                "1": 11,
+                "2": 9
+            }
+        },
+        {
+            "Ranking": 37,
+            "FarmID": "42418",
+            "LanternsCraftedByWeek": {
+                "1": 7,
+                "2": 6
+            }
+        },
+        {
+            "Ranking": 38,
+            "FarmID": "46163",
+            "LanternsCraftedByWeek": {
+                "1": 5,
+                "2": 5
+            }
+        },
+        {
+            "Ranking": 39,
+            "FarmID": "49806",
+            "LanternsCraftedByWeek": {
+                "1": 11,
+                "2": 11
+            }
+        },
+        {
+            "Ranking": 40,
+            "FarmID": "52704",
+            "LanternsCraftedByWeek": {
+                "1": 6,
+                "2": 6
+            }
+        },
+        {
+            "Ranking": 41,
+            "FarmID": "54507",
+            "LanternsCraftedByWeek": {
+                "1": 5,
+                "2": 5
+            }
+        },
+        {
+            "Ranking": 42,
+            "FarmID": "55626",
+            "LanternsCraftedByWeek": {
+                "1": 10,
+                "2": 5
+            }
+        },
+        {
+            "Ranking": 43,
+            "FarmID": "58352",
+            "LanternsCraftedByWeek": {
+                "1": 12,
+                "2": 5
+            }
+        },
+        {
+            "Ranking": 44,
+            "FarmID": "64721",
+            "LanternsCraftedByWeek": {
+                "1": 5,
+                "2": 5
+            }
+        },
+        {
+            "Ranking": 45,
+            "FarmID": "65101",
+            "LanternsCraftedByWeek": {
+                "1": 5,
+                "2": 8
+            }
+        },
+        {
+            "Ranking": 46,
+            "FarmID": "66352",
+            "LanternsCraftedByWeek": {
+                "1": 9,
+                "2": 4
+            }
+        },
+        {
+            "Ranking": 47,
+            "FarmID": "66767",
+            "LanternsCraftedByWeek": {
+                "1": 10,
+                "2": 5
+            }
+        },
+        {
+            "Ranking": 48,
+            "FarmID": "72769",
+            "LanternsCraftedByWeek": {
+                "1": 8,
+                "2": 6
+            }
+        },
+        {
+            "Ranking": 49,
+            "FarmID": "79105",
+            "LanternsCraftedByWeek": {
+                "1": 10,
+                "2": 10
+            }
+        },
+        {
+            "Ranking": 50,
+            "FarmID": "80722",
+            "LanternsCraftedByWeek": {
+                "1": 3,
+                "2": 5
+            }
+        },
+        {
+            "Ranking": 51,
+            "FarmID": "83854",
+            "LanternsCraftedByWeek": {
+                "1": 7,
+                "2": 12
+            }
+        },
+        {
+            "Ranking": 52,
+            "FarmID": "84470",
+            "LanternsCraftedByWeek": {
+                "1": 4,
+                "2": 5
+            }
+        },
+        {
+            "Ranking": 53,
+            "FarmID": "92845",
+            "LanternsCraftedByWeek": {
+                "1": 8,
+                "2": 9
+            }
+        },
+        {
+            "Ranking": 54,
+            "FarmID": "99535",
+            "LanternsCraftedByWeek": {
+                "1": 17,
+                "2": 5
+            }
+        },
+        {
+            "Ranking": 55,
+            "FarmID": "103642",
+            "LanternsCraftedByWeek": {
+                "1": 15,
+                "2": 6
+            }
+        },
+        {
+            "Ranking": 56,
+            "FarmID": "109106",
+            "LanternsCraftedByWeek": {
+                "1": 8,
+                "2": 10
+            }
+        },
+        {
+            "Ranking": 57,
+            "FarmID": "116578",
+            "LanternsCraftedByWeek": {
+                "1": 9,
+                "2": 4
+            }
+        },
+        {
+            "Ranking": 58,
+            "FarmID": "118589",
+            "LanternsCraftedByWeek": {
+                "1": 10,
+                "2": 9
+            }
+        },
+        {
+            "Ranking": 59,
+            "FarmID": "128059",
+            "LanternsCraftedByWeek": {
+                "1": 8,
+                "2": 7
+            }
+        },
+        {
+            "Ranking": 60,
+            "FarmID": "128484",
+            "LanternsCraftedByWeek": {
+                "1": 22,
+                "2": 5
+            }
+        },
+        {
+            "Ranking": 61,
+            "FarmID": "128816",
+            "LanternsCraftedByWeek": {
+                "1": 9,
+                "2": 5
+            }
+        },
+        {
+            "Ranking": 62,
+            "FarmID": "129902",
+            "LanternsCraftedByWeek": {
+                "1": 6,
+                "2": 5
+            }
+        },
+        {
+            "Ranking": 63,
+            "FarmID": "129970",
+            "LanternsCraftedByWeek": {
+                "1": 27,
+                "2": 27
+            }
+        },
+        {
+            "Ranking": 64,
+            "FarmID": "129996",
+            "LanternsCraftedByWeek": {
+                "1": 2,
+                "2": 5
+            }
+        },
+        {
+            "Ranking": 65,
+            "FarmID": "131525",
+            "LanternsCraftedByWeek": {
+                "1": 13,
+                "2": 6
+            }
+        },
+        {
+            "Ranking": 66,
+            "FarmID": "131789",
+            "LanternsCraftedByWeek": {
+                "1": 6,
+                "2": 4
+            }
+        },
+        {
+            "Ranking": 67,
+            "FarmID": "132159",
+            "LanternsCraftedByWeek": {
+                "1": 42,
+                "2": 6
+            }
+        },
+        {
+            "Ranking": 68,
+            "FarmID": "133042",
+            "LanternsCraftedByWeek": {
+                "1": 10,
+                "2": 13
+            }
+        },
+        {
+            "Ranking": 69,
+            "FarmID": "134170",
+            "LanternsCraftedByWeek": {
+                "1": 16,
+                "2": 10
+            }
+        },
+        {
+            "Ranking": 70,
+            "FarmID": "137765",
+            "LanternsCraftedByWeek": {
+                "1": 7,
+                "2": 5
+            }
+        },
+        {
+            "Ranking": 71,
+            "FarmID": "138293",
+            "LanternsCraftedByWeek": {
+                "1": 8,
+                "2": 5
+            }
+        },
+        {
+            "Ranking": 72,
+            "FarmID": "142129",
+            "LanternsCraftedByWeek": {
+                "1": 6,
+                "2": 5
+            }
+        },
+        {
+            "Ranking": 73,
+            "FarmID": "142571",
+            "LanternsCraftedByWeek": {
+                "1": 4,
+                "2": 6
+            }
+        },
+        {
+            "Ranking": 74,
+            "FarmID": "142726",
+            "LanternsCraftedByWeek": {
+                "1": 5,
+                "2": 5
+            }
+        },
+        {
+            "Ranking": 75,
+            "FarmID": "143152",
+            "LanternsCraftedByWeek": {
+                "1": 7,
+                "2": 5
+            }
+        },
+        {
+            "Ranking": 76,
+            "FarmID": "144055",
+            "LanternsCraftedByWeek": {
+                "1": 16,
+                "2": 6
+            }
+        },
+        {
+            "Ranking": 77,
+            "FarmID": "144733",
+            "LanternsCraftedByWeek": {
+                "1": 5,
+                "2": 5
+            }
+        },
+        {
+            "Ranking": 78,
+            "FarmID": "144843",
+            "LanternsCraftedByWeek": {
+                "1": 5,
+                "2": 5
+            }
+        },
+        {
+            "Ranking": 79,
+            "FarmID": "145674",
+            "LanternsCraftedByWeek": {
+                "1": 2,
+                "2": 5
+            }
+        },
+        {
+            "Ranking": 80,
+            "FarmID": "145849",
+            "LanternsCraftedByWeek": {
+                "1": 5,
+                "2": 5
+            }
+        },
+        {
+            "Ranking": 81,
+            "FarmID": "145998",
+            "LanternsCraftedByWeek": {
+                "1": 8,
+                "2": 15
+            }
+        },
+        {
+            "Ranking": 82,
+            "FarmID": "147614",
+            "LanternsCraftedByWeek": {
+                "1": 7,
+                "2": 12
+            }
+        },
+        {
+            "Ranking": 83,
+            "FarmID": "150782",
+            "LanternsCraftedByWeek": {
+                "1": 10,
+                "2": 8
+            }
+        },
+        {
+            "Ranking": 84,
+            "FarmID": "150827",
+            "LanternsCraftedByWeek": {
+                "1": 10,
+                "2": 5
+            }
+        },
+        {
+            "Ranking": 85,
+            "FarmID": "151009",
+            "LanternsCraftedByWeek": {
+                "1": 18,
+                "2": 13
+            }
+        },
+        {
+            "Ranking": 86,
+            "FarmID": "151344",
+            "LanternsCraftedByWeek": {
+                "1": 6,
+                "2": 5
+            }
+        },
+        {
+            "Ranking": 87,
+            "FarmID": "151986",
+            "LanternsCraftedByWeek": {
+                "1": 6,
+                "2": 6
+            }
+        },
+        {
+            "Ranking": 88,
+            "FarmID": "152408",
+            "LanternsCraftedByWeek": {
+                "1": 17,
+                "2": 6
+            }
+        },
+        {
+            "Ranking": 89,
+            "FarmID": "152414",
+            "LanternsCraftedByWeek": {
+                "1": 3,
+                "2": 6
+            }
+        },
+        {
+            "Ranking": 90,
+            "FarmID": "152613",
+            "LanternsCraftedByWeek": {
+                "1": 7,
+                "2": 5
+            }
+        },
+        {
+            "Ranking": 91,
+            "FarmID": "152700",
+            "LanternsCraftedByWeek": {
+                "1": 8,
+                "2": 5
+            }
+        },
+        {
+            "Ranking": 92,
+            "FarmID": "153497",
+            "LanternsCraftedByWeek": {
+                "1": 5,
+                "2": 5
+            }
+        },
+        {
+            "Ranking": 93,
+            "FarmID": "153506",
+            "LanternsCraftedByWeek": {
+                "1": 5,
+                "2": 6
+            }
+        },
+        {
+            "Ranking": 94,
+            "FarmID": "153690",
+            "LanternsCraftedByWeek": {
+                "1": 4,
+                "2": 5
+            }
+        },
+        {
+            "Ranking": 95,
+            "FarmID": "154318",
+            "LanternsCraftedByWeek": {
+                "1": 6,
+                "2": 14
+            }
+        },
+        {
+            "Ranking": 96,
+            "FarmID": "154587",
+            "LanternsCraftedByWeek": {
+                "1": 6,
+                "2": 9
+            }
+        },
+        {
+            "Ranking": 97,
+            "FarmID": "155678",
+            "LanternsCraftedByWeek": {
+                "1": 36,
+                "2": 6
+            }
+        },
+        {
+            "Ranking": 98,
+            "FarmID": "155793",
+            "LanternsCraftedByWeek": {
+                "1": 75,
+                "2": 11
+            }
+        },
+        {
+            "Ranking": 99,
+            "FarmID": "155794",
+            "LanternsCraftedByWeek": {
+                "1": 5,
+                "2": 4
+            }
+        },
+        {
+            "Ranking": 100,
+            "FarmID": "158224",
+            "LanternsCraftedByWeek": {
+                "1": 5,
+                "2": 4
+            }
+        },
+        {
+            "Ranking": 101,
+            "FarmID": "86",
+            "LanternsCraftedByWeek": {
+                "1": 11,
+                "2": 4
+            }
+        },
+        {
+            "Ranking": 102,
+            "FarmID": "216",
+            "LanternsCraftedByWeek": {
+                "1": 10,
+                "2": 5
+            }
+        },
+        {
+            "Ranking": 103,
+            "FarmID": "255",
+            "LanternsCraftedByWeek": {
+                "1": 5,
+                "2": 3
+            }
+        },
+        {
+            "Ranking": 104,
+            "FarmID": "268",
+            "LanternsCraftedByWeek": {
+                "1": 13,
+                "2": 5
+            }
+        },
+        {
+            "Ranking": 105,
+            "FarmID": "595",
+            "LanternsCraftedByWeek": {
+                "1": 20,
+                "2": 6
+            }
+        },
+        {
+            "Ranking": 106,
+            "FarmID": "930",
+            "LanternsCraftedByWeek": {
+                "1": 3,
+                "2": 2
+            }
+        },
+        {
+            "Ranking": 107,
+            "FarmID": "1160",
+            "LanternsCraftedByWeek": {
+                "2": 2
+            }
+        },
+        {
+            "Ranking": 108,
+            "FarmID": "1292",
+            "LanternsCraftedByWeek": {
+                "1": 1,
+                "2": 1
+            }
+        },
+        {
+            "Ranking": 109,
+            "FarmID": "1802",
+            "LanternsCraftedByWeek": {
+                "1": 5,
+                "2": 2
+            }
+        },
+        {
+            "Ranking": 110,
+            "FarmID": "2049",
+            "LanternsCraftedByWeek": {
+                "1": 12,
+                "2": 2
+            }
+        },
+        {
+            "Ranking": 111,
+            "FarmID": "2371",
+            "LanternsCraftedByWeek": {
+                "1": 5,
+                "2": 1
+            }
+        },
+        {
+            "Ranking": 112,
+            "FarmID": "2442",
+            "LanternsCraftedByWeek": {
+                "1": 5,
+                "2": 1
+            }
+        },
+        {
+            "Ranking": 113,
+            "FarmID": "2951",
+            "LanternsCraftedByWeek": {
+                "1": 4,
+                "2": 2
+            }
+        },
+        {
+            "Ranking": 114,
+            "FarmID": "3870",
+            "LanternsCraftedByWeek": {
+                "1": 2,
+                "2": 2
+            }
+        },
+        {
+            "Ranking": 115,
+            "FarmID": "4480",
+            "LanternsCraftedByWeek": {
+                "1": 2,
+                "2": 3
+            }
+        },
+        {
+            "Ranking": 116,
+            "FarmID": "7337",
+            "LanternsCraftedByWeek": {
+                "1": 3,
+                "2": 1
+            }
+        },
+        {
+            "Ranking": 117,
+            "FarmID": "7755",
+            "LanternsCraftedByWeek": {
+                "1": 7,
+                "2": 2
+            }
+        },
+        {
+            "Ranking": 118,
+            "FarmID": "8637",
+            "LanternsCraftedByWeek": {
+                "1": 9,
+                "2": 2
+            }
+        },
+        {
+            "Ranking": 119,
+            "FarmID": "8865",
+            "LanternsCraftedByWeek": {
+                "1": 2,
+                "2": 2
+            }
+        },
+        {
+            "Ranking": 120,
+            "FarmID": "9708",
+            "LanternsCraftedByWeek": {
+                "1": 5,
+                "2": 2
+            }
+        },
+        {
+            "Ranking": 121,
+            "FarmID": "10103",
+            "LanternsCraftedByWeek": {
+                "1": 2,
+                "2": 1
+            }
+        },
+        {
+            "Ranking": 122,
+            "FarmID": "10777",
+            "LanternsCraftedByWeek": {
+                "1": 31,
+                "2": 6
+            }
+        },
+        {
+            "Ranking": 123,
+            "FarmID": "11853",
+            "LanternsCraftedByWeek": {
+                "1": 6,
+                "2": 1
+            }
+        },
+        {
+            "Ranking": 124,
+            "FarmID": "12454",
+            "LanternsCraftedByWeek": {
+                "1": 2,
+                "2": 3
+            }
+        },
+        {
+            "Ranking": 125,
+            "FarmID": "17999",
+            "LanternsCraftedByWeek": {
+                "1": 2,
+                "2": 2
+            }
+        },
+        {
+            "Ranking": 126,
+            "FarmID": "18370",
+            "LanternsCraftedByWeek": {
+                "1": 5,
+                "2": 2
+            }
+        },
+        {
+            "Ranking": 127,
+            "FarmID": "20938",
+            "LanternsCraftedByWeek": {
+                "1": 5,
+                "2": 2
+            }
+        },
+        {
+            "Ranking": 128,
+            "FarmID": "29090",
+            "LanternsCraftedByWeek": {
+                "1": 13,
+                "2": 3
+            }
+        },
+        {
+            "Ranking": 129,
+            "FarmID": "30184",
+            "LanternsCraftedByWeek": {
+                "1": 1,
+                "2": 3
+            }
+        },
+        {
+            "Ranking": 130,
+            "FarmID": "32712",
+            "LanternsCraftedByWeek": {
+                "2": 3
+            }
+        },
+        {
+            "Ranking": 131,
+            "FarmID": "36892",
+            "LanternsCraftedByWeek": {
+                "1": 11,
+                "2": 2
+            }
+        },
+        {
+            "Ranking": 132,
+            "FarmID": "38901",
+            "LanternsCraftedByWeek": {
+                "1": 5,
+                "2": 3
+            }
+        },
+        {
+            "Ranking": 133,
+            "FarmID": "41421",
+            "LanternsCraftedByWeek": {
+                "1": 5,
+                "2": 1
+            }
+        },
+        {
+            "Ranking": 134,
+            "FarmID": "41822",
+            "LanternsCraftedByWeek": {
+                "1": 1,
+                "2": 1
+            }
+        },
+        {
+            "Ranking": 135,
+            "FarmID": "45192",
+            "LanternsCraftedByWeek": {
+                "1": 2,
+                "2": 1
+            }
+        },
+        {
+            "Ranking": 136,
+            "FarmID": "45797",
+            "LanternsCraftedByWeek": {
+                "1": 3,
+                "2": 2
+            }
+        },
+        {
+            "Ranking": 137,
+            "FarmID": "47276",
+            "LanternsCraftedByWeek": {
+                "1": 4,
+                "2": 2
+            }
+        },
+        {
+            "Ranking": 138,
+            "FarmID": "51883",
+            "LanternsCraftedByWeek": {
+                "1": 3,
+                "2": 2
+            }
+        },
+        {
+            "Ranking": 139,
+            "FarmID": "52741",
+            "LanternsCraftedByWeek": {
+                "1": 2,
+                "2": 2
+            }
+        },
+        {
+            "Ranking": 140,
+            "FarmID": "53829",
+            "LanternsCraftedByWeek": {
+                "1": 5,
+                "2": 5
+            }
+        },
+        {
+            "Ranking": 141,
+            "FarmID": "57515",
+            "LanternsCraftedByWeek": {
+                "1": 5,
+                "2": 2
+            }
+        },
+        {
+            "Ranking": 142,
+            "FarmID": "58044",
+            "LanternsCraftedByWeek": {
+                "1": 11,
+                "2": 4
+            }
+        },
+        {
+            "Ranking": 143,
+            "FarmID": "62559",
+            "LanternsCraftedByWeek": {
+                "1": 6,
+                "2": 3
+            }
+        },
+        {
+            "Ranking": 144,
+            "FarmID": "64181",
+            "LanternsCraftedByWeek": {
+                "1": 4,
+                "2": 2
+            }
+        },
+        {
+            "Ranking": 145,
+            "FarmID": "65553",
+            "LanternsCraftedByWeek": {
+                "1": 3,
+                "2": 1
+            }
+        },
+        {
+            "Ranking": 146,
+            "FarmID": "65685",
+            "LanternsCraftedByWeek": {
+                "1": 8,
+                "2": 4
+            }
+        },
+        {
+            "Ranking": 147,
+            "FarmID": "67198",
+            "LanternsCraftedByWeek": {
+                "1": 5,
+                "2": 3
+            }
+        },
+        {
+            "Ranking": 148,
+            "FarmID": "73220",
+            "LanternsCraftedByWeek": {
+                "1": 3,
+                "2": 1
+            }
+        },
+        {
+            "Ranking": 149,
+            "FarmID": "84736",
+            "LanternsCraftedByWeek": {
+                "1": 6,
+                "2": 2
+            }
+        },
+        {
+            "Ranking": 150,
+            "FarmID": "85562",
+            "LanternsCraftedByWeek": {
+                "1": 3,
+                "2": 2
+            }
+        },
+        {
+            "Ranking": 151,
+            "FarmID": "85932",
+            "LanternsCraftedByWeek": {
+                "1": 3,
+                "2": 2
+            }
+        },
+        {
+            "Ranking": 152,
+            "FarmID": "87057",
+            "LanternsCraftedByWeek": {
+                "1": 7,
+                "2": 1
+            }
+        },
+        {
+            "Ranking": 153,
+            "FarmID": "92566",
+            "LanternsCraftedByWeek": {
+                "1": 5,
+                "2": 3
+            }
+        },
+        {
+            "Ranking": 154,
+            "FarmID": "95549",
+            "LanternsCraftedByWeek": {
+                "1": 2,
+                "2": 1
+            }
+        },
+        {
+            "Ranking": 155,
+            "FarmID": "98673",
+            "LanternsCraftedByWeek": {
+                "1": 9,
+                "2": 4
+            }
+        },
+        {
+            "Ranking": 156,
+            "FarmID": "100257",
+            "LanternsCraftedByWeek": {
+                "1": 1,
+                "2": 1
+            }
+        },
+        {
+            "Ranking": 157,
+            "FarmID": "107102",
+            "LanternsCraftedByWeek": {
+                "1": 5,
+                "2": 3
+            }
+        },
+        {
+            "Ranking": 158,
+            "FarmID": "121254",
+            "LanternsCraftedByWeek": {
+                "2": 2
+            }
+        },
+        {
+            "Ranking": 159,
+            "FarmID": "128494",
+            "LanternsCraftedByWeek": {
+                "1": 9,
+                "2": 3
+            }
+        },
+        {
+            "Ranking": 160,
+            "FarmID": "133586",
+            "LanternsCraftedByWeek": {
+                "1": 5,
+                "2": 2
+            }
+        },
+        {
+            "Ranking": 161,
+            "FarmID": "134417",
+            "LanternsCraftedByWeek": {
+                "1": 4,
+                "2": 1
+            }
+        },
+        {
+            "Ranking": 162,
+            "FarmID": "134601",
+            "LanternsCraftedByWeek": {
+                "1": 2,
+                "2": 2
+            }
+        },
+        {
+            "Ranking": 163,
+            "FarmID": "135077",
+            "LanternsCraftedByWeek": {
+                "1": 7,
+                "2": 5
+            }
+        },
+        {
+            "Ranking": 164,
+            "FarmID": "137954",
+            "LanternsCraftedByWeek": {
+                "1": 7,
+                "2": 8
+            }
+        },
+        {
+            "Ranking": 165,
+            "FarmID": "138901",
+            "LanternsCraftedByWeek": {
+                "1": 9,
+                "2": 4
+            }
+        },
+        {
+            "Ranking": 166,
+            "FarmID": "139657",
+            "LanternsCraftedByWeek": {
+                "1": 8,
+                "2": 1
+            }
+        },
+        {
+            "Ranking": 167,
+            "FarmID": "140156",
+            "LanternsCraftedByWeek": {
+                "1": 6,
+                "2": 3
+            }
+        },
+        {
+            "Ranking": 168,
+            "FarmID": "141108",
+            "LanternsCraftedByWeek": {
+                "1": 1,
+                "2": 1
+            }
+        },
+        {
+            "Ranking": 169,
+            "FarmID": "141609",
+            "LanternsCraftedByWeek": {
+                "2": 3
+            }
+        },
+        {
+            "Ranking": 170,
+            "FarmID": "141702",
+            "LanternsCraftedByWeek": {
+                "1": 3,
+                "2": 3
+            }
+        },
+        {
+            "Ranking": 171,
+            "FarmID": "141829",
+            "LanternsCraftedByWeek": {
+                "1": 4,
+                "2": 3
+            }
+        },
+        {
+            "Ranking": 172,
+            "FarmID": "141939",
+            "LanternsCraftedByWeek": {
+                "1": 6,
+                "2": 4
+            }
+        },
+        {
+            "Ranking": 173,
+            "FarmID": "142156",
+            "LanternsCraftedByWeek": {
+                "1": 4,
+                "2": 3
+            }
+        },
+        {
+            "Ranking": 174,
+            "FarmID": "142638",
+            "LanternsCraftedByWeek": {
+                "1": 2,
+                "2": 2
+            }
+        },
+        {
+            "Ranking": 175,
+            "FarmID": "143338",
+            "LanternsCraftedByWeek": {
+                "1": 12,
+                "2": 2
+            }
+        },
+        {
+            "Ranking": 176,
+            "FarmID": "143978",
+            "LanternsCraftedByWeek": {
+                "1": 8,
+                "2": 1
+            }
+        },
+        {
+            "Ranking": 177,
+            "FarmID": "143991",
+            "LanternsCraftedByWeek": {
+                "1": 4,
+                "2": 2
+            }
+        },
+        {
+            "Ranking": 178,
+            "FarmID": "143993",
+            "LanternsCraftedByWeek": {
+                "1": 5,
+                "2": 2
+            }
+        },
+        {
+            "Ranking": 179,
+            "FarmID": "144479",
+            "LanternsCraftedByWeek": {
+                "1": 8,
+                "2": 2
+            }
+        },
+        {
+            "Ranking": 180,
+            "FarmID": "144497",
+            "LanternsCraftedByWeek": {
+                "1": 2,
+                "2": 3
+            }
+        },
+        {
+            "Ranking": 181,
+            "FarmID": "147898",
+            "LanternsCraftedByWeek": {
+                "1": 10,
+                "2": 4
+            }
+        },
+        {
+            "Ranking": 182,
+            "FarmID": "152442",
+            "LanternsCraftedByWeek": {
+                "1": 1,
+                "2": 1
+            }
+        },
+        {
+            "Ranking": 183,
+            "FarmID": "152750",
+            "LanternsCraftedByWeek": {
+                "1": 17,
+                "2": 3
+            }
+        },
+        {
+            "Ranking": 184,
+            "FarmID": "153032",
+            "LanternsCraftedByWeek": {
+                "1": 8,
+                "2": 2
+            }
+        },
+        {
+            "Ranking": 185,
+            "FarmID": "153132",
+            "LanternsCraftedByWeek": {
+                "1": 2,
+                "2": 3
+            }
+        },
+        {
+            "Ranking": 186,
+            "FarmID": "153205",
+            "LanternsCraftedByWeek": {
+                "1": 3,
+                "2": 2
+            }
+        },
+        {
+            "Ranking": 187,
+            "FarmID": "153598",
+            "LanternsCraftedByWeek": {
+                "1": 1,
+                "2": 2
+            }
+        },
+        {
+            "Ranking": 188,
+            "FarmID": "153837",
+            "LanternsCraftedByWeek": {
+                "1": 3,
+                "2": 1
+            }
+        },
+        {
+            "Ranking": 189,
+            "FarmID": "153847",
+            "LanternsCraftedByWeek": {
+                "1": 6,
+                "2": 3
+            }
+        },
+        {
+            "Ranking": 190,
+            "FarmID": "154095",
+            "LanternsCraftedByWeek": {
+                "1": 1,
+                "2": 2
+            }
+        },
+        {
+            "Ranking": 191,
+            "FarmID": "154099",
+            "LanternsCraftedByWeek": {
+                "1": 9,
+                "2": 2
+            }
+        },
+        {
+            "Ranking": 192,
+            "FarmID": "154209",
+            "LanternsCraftedByWeek": {
+                "1": 4,
+                "2": 1
+            }
+        },
+        {
+            "Ranking": 193,
+            "FarmID": "154584",
+            "LanternsCraftedByWeek": {
+                "1": 7,
+                "2": 2
+            }
+        },
+        {
+            "Ranking": 194,
+            "FarmID": "154916",
+            "LanternsCraftedByWeek": {
+                "1": 6,
+                "2": 5
+            }
+        },
+        {
+            "Ranking": 195,
+            "FarmID": "154977",
+            "LanternsCraftedByWeek": {
+                "1": 2,
+                "2": 2
+            }
+        },
+        {
+            "Ranking": 196,
+            "FarmID": "156427",
+            "LanternsCraftedByWeek": {
+                "1": 1,
+                "2": 3
+            }
+        },
+        {
+            "Ranking": 197,
+            "FarmID": "158542",
+            "LanternsCraftedByWeek": {
+                "1": 5,
+                "2": 3
+            }
+        },
+        {
+            "Ranking": 198,
+            "FarmID": "158848",
+            "LanternsCraftedByWeek": {
+                "1": 2,
+                "2": 1
+            }
+        },
+        {
+            "Ranking": 199,
+            "FarmID": "160008",
+            "LanternsCraftedByWeek": {
+                "1": 2,
+                "2": 1
+            }
+        },
+        {
+            "Ranking": 200,
+            "FarmID": "161504",
+            "LanternsCraftedByWeek": {
+                "1": 13,
+                "2": 3
+            }
+        },
+        {
+            "Ranking": 201,
+            "FarmID": "991",
+            "LanternsCraftedByWeek": {
+                "1": 1,
+                "2": 1
+            }
+        },
+        {
+            "Ranking": 202,
+            "FarmID": "1109",
+            "LanternsCraftedByWeek": {
+                "1": 5,
+                "2": 1
+            }
+        },
+        {
+            "Ranking": 203,
+            "FarmID": "1610",
+            "LanternsCraftedByWeek": {
+                "1": 5,
+                "2": 1
+            }
+        },
+        {
+            "Ranking": 204,
+            "FarmID": "2183",
+            "LanternsCraftedByWeek": {
+                "1": 5,
+                "2": 5
+            }
+        },
+        {
+            "Ranking": 205,
+            "FarmID": "8269",
+            "LanternsCraftedByWeek": {
+                "1": 4,
+                "2": 1
+            }
+        },
+        {
+            "Ranking": 206,
+            "FarmID": "12615",
+            "LanternsCraftedByWeek": {
+                "1": 1,
+                "2": 1
+            }
+        },
+        {
+            "Ranking": 207,
+            "FarmID": "13624",
+            "LanternsCraftedByWeek": {
+                "1": 2,
+                "2": 1
+            }
+        },
+        {
+            "Ranking": 208,
+            "FarmID": "15559",
+            "LanternsCraftedByWeek": {
+                "1": 55,
+                "2": 6
+            }
+        },
+        {
+            "Ranking": 209,
+            "FarmID": "15916",
+            "LanternsCraftedByWeek": {
+                "1": 5,
+                "2": 5
+            }
+        },
+        {
+            "Ranking": 210,
+            "FarmID": "22772",
+            "LanternsCraftedByWeek": {
+                "1": 8,
+                "2": 1
+            }
+        },
+        {
+            "Ranking": 211,
+            "FarmID": "28570",
+            "LanternsCraftedByWeek": {
+                "1": 7,
+                "2": 2
+            }
+        },
+        {
+            "Ranking": 212,
+            "FarmID": "29004",
+            "LanternsCraftedByWeek": {
+                "1": 2,
+                "2": 1
+            }
+        },
+        {
+            "Ranking": 213,
+            "FarmID": "32768",
+            "LanternsCraftedByWeek": {
+                "1": 4,
+                "2": 1
+            }
+        },
+        {
+            "Ranking": 214,
+            "FarmID": "34897",
+            "LanternsCraftedByWeek": {
+                "1": 5,
+                "2": 1
+            }
+        },
+        {
+            "Ranking": 215,
+            "FarmID": "36696",
+            "LanternsCraftedByWeek": {
+                "1": 1,
+                "2": 1
+            }
+        },
+        {
+            "Ranking": 216,
+            "FarmID": "37483",
+            "LanternsCraftedByWeek": {
+                "1": 6,
+                "2": 1
+            }
+        },
+        {
+            "Ranking": 217,
+            "FarmID": "47679",
+            "LanternsCraftedByWeek": {
+                "1": 1,
+                "2": 1
+            }
+        },
+        {
+            "Ranking": 218,
+            "FarmID": "52264",
+            "LanternsCraftedByWeek": {
+                "1": 5,
+                "2": 1
+            }
+        },
+        {
+            "Ranking": 219,
+            "FarmID": "56239",
+            "LanternsCraftedByWeek": {
+                "2": 1
+            }
+        },
+        {
+            "Ranking": 220,
+            "FarmID": "58242",
+            "LanternsCraftedByWeek": {
+                "1": 1,
+                "2": 1
+            }
+        },
+        {
+            "Ranking": 221,
+            "FarmID": "61620",
+            "LanternsCraftedByWeek": {
+                "1": 1,
+                "2": 1
+            }
+        },
+        {
+            "Ranking": 222,
+            "FarmID": "63845",
+            "LanternsCraftedByWeek": {
+                "1": 3,
+                "2": 1
+            }
+        },
+        {
+            "Ranking": 223,
+            "FarmID": "63879",
+            "LanternsCraftedByWeek": {
+                "1": 1,
+                "2": 1
+            }
+        },
+        {
+            "Ranking": 224,
+            "FarmID": "65024",
+            "LanternsCraftedByWeek": {
+                "1": 3,
+                "2": 1
+            }
+        },
+        {
+            "Ranking": 225,
+            "FarmID": "66342",
+            "LanternsCraftedByWeek": {
+                "1": 2,
+                "2": 1
+            }
+        },
+        {
+            "Ranking": 226,
+            "FarmID": "68002",
+            "LanternsCraftedByWeek": {
+                "1": 2,
+                "2": 1
+            }
+        },
+        {
+            "Ranking": 227,
+            "FarmID": "73721",
+            "LanternsCraftedByWeek": {
+                "1": 5,
+                "2": 1
+            }
+        },
+        {
+            "Ranking": 228,
+            "FarmID": "83626",
+            "LanternsCraftedByWeek": {
+                "1": 1,
+                "2": 2
+            }
+        },
+        {
+            "Ranking": 229,
+            "FarmID": "112517",
+            "LanternsCraftedByWeek": {
+                "1": 7,
+                "2": 2
+            }
+        },
+        {
+            "Ranking": 230,
+            "FarmID": "127749",
+            "LanternsCraftedByWeek": {
+                "1": 6,
+                "2": 1
+            }
+        },
+        {
+            "Ranking": 231,
+            "FarmID": "128296",
+            "LanternsCraftedByWeek": {
+                "1": 3,
+                "2": 2
+            }
+        },
+        {
+            "Ranking": 232,
+            "FarmID": "145961",
+            "LanternsCraftedByWeek": {
+                "1": 1,
+                "2": 1
+            }
+        },
+        {
+            "Ranking": 233,
+            "FarmID": "146584",
+            "LanternsCraftedByWeek": {
+                "1": 1,
+                "2": 1
+            }
+        },
+        {
+            "Ranking": 234,
+            "FarmID": "146717",
+            "LanternsCraftedByWeek": {
+                "1": 2,
+                "2": 2
+            }
+        },
+        {
+            "Ranking": 235,
+            "FarmID": "154342",
+            "LanternsCraftedByWeek": {
+                "1": 1,
+                "2": 1
+            }
+        },
+        {
+            "Ranking": 236,
+            "FarmID": "154789",
+            "LanternsCraftedByWeek": {
+                "1": 1,
+                "2": 1
+            }
+        },
+        {
+            "Ranking": 237,
+            "FarmID": "156061",
+            "LanternsCraftedByWeek": {
+                "2": 1
+            }
+        },
+        {
+            "Ranking": 238,
+            "FarmID": "156412",
+            "LanternsCraftedByWeek": {
+                "1": 6,
+                "2": 1
+            }
+        },
+        {
+            "Ranking": 239,
+            "FarmID": "157657",
+            "LanternsCraftedByWeek": {
+                "1": 3,
+                "2": 1
+            }
+        },
+        {
+            "Ranking": 240,
+            "FarmID": "159862",
+            "LanternsCraftedByWeek": {
+                "1": 5,
+                "2": 3
+            }
+        },
+        {
+            "Ranking": 241,
+            "FarmID": "160403",
+            "LanternsCraftedByWeek": {
+                "1": 3,
+                "2": 1
+            }
+        },
+        {
+            "Ranking": 242,
+            "FarmID": "161181",
+            "LanternsCraftedByWeek": {
+                "1": 5,
+                "2": 2
+            }
+        },
+        {
+            "Ranking": 243,
+            "FarmID": "161238",
+            "LanternsCraftedByWeek": {
+                "1": 2,
+                "2": 3
+            }
+        },
+        {
+            "Ranking": 244,
+            "FarmID": "161602",
+            "LanternsCraftedByWeek": {
+                "1": 1,
+                "2": 1
+            }
+        },
+        {
+            "Ranking": 245,
+            "FarmID": "162330",
+            "LanternsCraftedByWeek": {
+                "1": 1,
+                "2": 1
+            }
+        }
+    ]
+}
