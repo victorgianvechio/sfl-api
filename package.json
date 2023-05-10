@@ -28,13 +28,15 @@
     "docker:explore": "sudo docker exec -it sfl-api bash"
   },
   "dependencies": {
+    "@sentry/integrations": "^7.51.2",
+    "@sentry/node": "^7.51.2",
     "axios": "^0.27.2",
     "date-fns": "^2.29.3",
     "dotenv": "^16.0.3",
     "express": "^4.18.1",
     "jsonwebtoken": "^9.0.0",
     "node-cron": "^3.0.2",
-    "puppeteer": "^19.7.5",    
+    "puppeteer": "^19.7.5",
     "sucrase": "^3.25.0"
   },
   "devDependencies": {

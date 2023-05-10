@@ -1,8 +1,9 @@
 import express from 'express';
-import path from 'path';
+import * as Sentry from '@sentry/node';
+
+import sentryConfig from './config/sentry';
 
 import { monit } from './cron';
-import { publicPath } from './utils/paths';
 import allowCors from './middlewares/cors';
 
 // import solarFlareTicketRoutes from './app/SolarFlareTicket/solarFlareTicket.routes';
@@ -12,6 +13,7 @@ import dawnBreakerTicketRoutes from './app/DawnBreakerTicket/dawnBreakerTicket.r
 class App {
   constructor() {
     this.server = express();
+    Sentry.init(sentryConfig);
 
     this.middlewares();
     this.routes();
@@ -19,6 +21,7 @@ class App {
   }
 
   middlewares() {
+    this.server.use(Sentry.Handlers.requestHandler());
     this.server.use(express.json());
     this.server.use(allowCors);
     this.server.use(express.static('./public'));
@@ -43,6 +46,8 @@ class App {
     // this.server.use('/api/v1/SolarFlareTicket', solarFlareTicketRoutes);
     this.server.use('/api/v1/DawnBreakerTicket', dawnBreakerTicketRoutes);
     // this.server.use('/api/v1/RadianceLantern', radianceLanternRoutes);
+
+    this.server.use(Sentry.Handlers.errorHandler());
   }
 }
 
