@@ -148,6 +148,7 @@ class DawnBreakerTicketController {
               Activity: value.hayseedHank.chore.activity,
               Completed: value.hayseedHank.dawnBreakerChoresCompleted,
             },
+            LanternsCraftedByWeek: value.dawnBreaker.lanternsCraftedByWeek,
           };
           rankingResult.push(obj);
         }
