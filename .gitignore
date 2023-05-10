@@ -7,4 +7,3 @@ logs
 build
 dist
 yarn.lock
-cache
