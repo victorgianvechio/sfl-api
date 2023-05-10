@@ -5,9 +5,9 @@ import { monit } from './cron';
 import { publicPath } from './utils/paths';
 import allowCors from './middlewares/cors';
 
-import solarFlareTicketRoutes from './app/SolarFlareTicket/solarFlareTicket.routes';
+// import solarFlareTicketRoutes from './app/SolarFlareTicket/solarFlareTicket.routes';
 import dawnBreakerTicketRoutes from './app/DawnBreakerTicket/dawnBreakerTicket.routes';
-import radianceLanternRoutes from './app/RadianceLantern/radianceLantern.routes';
+// import radianceLanternRoutes from './app/RadianceLantern/radianceLantern.routes';
 
 class App {
   constructor() {
@@ -40,9 +40,9 @@ class App {
         .json({ status: true, message: 'sfl-api is running' });
     });
 
-    this.server.use('/api/v1/SolarFlareTicket', solarFlareTicketRoutes);
+    // this.server.use('/api/v1/SolarFlareTicket', solarFlareTicketRoutes);
     this.server.use('/api/v1/DawnBreakerTicket', dawnBreakerTicketRoutes);
-    this.server.use('/api/v1/RadianceLantern', radianceLanternRoutes);
+    // this.server.use('/api/v1/RadianceLantern', radianceLanternRoutes);
   }
 }
 
