@@ -1,5 +1,5 @@
-# FROM node:18.12.1
-FROM node:16.3.0-alpine
+FROM node:18.12.1
+# FROM node:16.3.0-alpine
 WORKDIR /app/sfl-api
 COPY package.json ./
 RUN yarn
