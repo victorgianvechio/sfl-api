@@ -149,7 +149,9 @@ class DawnBreakerTicketController {
               Completed: value.hayseedHank.dawnBreakerChoresCompleted,
             },
             LanternsCraftedByWeek: value.dawnBreaker.lanternsCraftedByWeek,
-            Mushrooms: value.inventory['Wild Mushroom'],
+            OldBottle: value.inventory['Old Bottle'],
+            Seaweed: value.inventory['Seaweed'],
+            IronCompass: value.inventory['Iron Compass'],
           };
           rankingResult.push(obj);
         }

@@ -18,6 +18,7 @@
     "dev": "nodemon --ignore ./cache src/server.js",
     "prod": "sucrase-node src/server.js",
     "env": "sucrase-node src/utils/dotenvGenerator.js",
+    "app:file": "sucrase-node src/init.js",
     "token": "sucrase-node src/utils/tokenGenerator.js",
     "build": "babel src -d dist --copy-files",
     "eslint:fix": "yarn eslint --fix src --ext .js",
