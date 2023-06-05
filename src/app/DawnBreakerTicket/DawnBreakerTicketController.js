@@ -142,12 +142,12 @@ class DawnBreakerTicketController {
           const obj = {
             FarmID: key,
             DawnBreakerTicket: value.inventory['Dawn Breaker Ticket'],
-            Quest: {
-              Description: value.hayseedHank.chore.description,
-              Requirement: value.hayseedHank.chore.requirement,
-              Activity: value.hayseedHank.chore.activity,
-              Completed: value.hayseedHank.dawnBreakerChoresCompleted,
-            },
+            // Quest: {
+            //   Description: value.hayseedHank.chore.description,
+            //   Requirement: value.hayseedHank.chore.requirement,
+            //   Activity: value.hayseedHank.chore.activity,
+            //   Completed: value.hayseedHank.dawnBreakerChoresCompleted,
+            // },
             LanternsCraftedByWeek: value.dawnBreaker.lanternsCraftedByWeek,
             OldBottle: value.inventory['Old Bottle'],
             Seaweed: value.inventory['Seaweed'],
