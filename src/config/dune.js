@@ -11,7 +11,7 @@ export const SolarFlareTicket = {
 // };
 
 export const DawnBreakerTicket = {
-  pages: 200,
+  pages: 400,
   farms: 25,
   url: 'https://dune.com/queries/2427450/3987042',
 };

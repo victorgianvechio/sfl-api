@@ -163,15 +163,15 @@ class DawnBreakerTicketController {
     }
 
     // Ordena o array
-    rankingResult.sort(
-      (a, b) => Number(b.DawnBreakerTicket) - Number(a.DawnBreakerTicket)
-    );
+    // rankingResult.sort(
+    //   (a, b) => Number(b.DawnBreakerTicket) - Number(a.DawnBreakerTicket)
+    // );
 
     // Cria propriedade Ranking
-    rankingResult = rankingResult.map((element, index) => ({
-      Ranking: index + 1,
-      ...element,
-    }));
+    // rankingResult = rankingResult.map((element, index) => ({
+    //   Ranking: index + 1,
+    //   ...element,
+    // }));
 
     const endTime = Date.now() - initTime;
     const endTimeInSeconds = endTime / 1000;
