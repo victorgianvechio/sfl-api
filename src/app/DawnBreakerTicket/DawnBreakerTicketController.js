@@ -152,6 +152,7 @@ class DawnBreakerTicketController {
             OldBottle: value.inventory['Old Bottle'],
             Seaweed: value.inventory['Seaweed'],
             IronCompass: value.inventory['Iron Compass'],
+            DavyJones: value.inventory['Heart of Davy Jones'],
           };
           rankingResult.push(obj);
         }
