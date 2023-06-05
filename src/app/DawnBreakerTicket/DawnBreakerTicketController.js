@@ -51,8 +51,8 @@ class DawnBreakerTicketController {
         waitUntil: 'domcontentloaded',
         timeout: 0,
       });
-      await page.waitForSelector('.visual_result__tveha');
-      await page.waitForSelector('.table_table__fuS_N');
+      // await page.waitForSelector('.visual_result__tveha');
+      // await page.waitForSelector('.table_table__fuS_N');
     } catch (err) {
       console.log(err);
       await browser.close();
@@ -60,7 +60,7 @@ class DawnBreakerTicketController {
     console.log('Link iniciado');
 
     console.log('Carregando dados');
-    await sleep(10000);
+    await sleep(20000);
     console.log('Dados carregados');
 
     console.log('Iniciando scrapping');
