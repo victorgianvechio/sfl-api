@@ -5,7 +5,7 @@ import path from 'path';
 import { CACHE_PATH } from '../../utils/paths';
 import { getFarms } from '../../config/sflapi';
 import sleep from '../../utils/sleep';
-import { farms } from './farms';
+import { FARMS_LIST } from './farms';
 
 class DawnBreakerTicketController {
   async ranking(req, res) {
@@ -22,17 +22,16 @@ class DawnBreakerTicketController {
 
   async generateFile() {
     let rankingResult = [];
-    let farmIdList = farms;
 
-    console.log('farmIdList.length', farmIdList.length);
+    console.log('farmIdList.length', FARMS_LIST.length);
 
     const initTime = Date.now();
     console.log('Processamento iniciado', new Date());
 
     // Divide o array em grupos com 100 ids
-    let farmsRequest = new Array(Math.ceil(farmIdList.length / 100))
+    let farmsRequest = new Array(Math.ceil(FARMS_LIST.length / 100))
       .fill()
-      .map(() => farmIdList.splice(0, 100));
+      .map(() => FARMS_LIST.splice(0, 100));
 
     console.log('farmsRequest.length', farmsRequest.length);
 
