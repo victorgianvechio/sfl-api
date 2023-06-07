@@ -5,8 +5,8 @@ import DawnBreakerTicketController from './app/DawnBreakerTicket/DawnBreakerTick
 // import RadianceLanternController from './app/RadianceLantern/RadianceLanternController';
 
 export function monit() {
-  // Cron para executar a cada 10min
-  Cron.schedule('*/30 * * * *', async () => {
+  // Cron para executar a cada 30min
+  Cron.schedule('0 */30 * * * *', async () => {
     // Chamar função para gerar arquivo
     // SolarFlareTicketController.generateFile();
     // await RadianceLanternController.generateFile();

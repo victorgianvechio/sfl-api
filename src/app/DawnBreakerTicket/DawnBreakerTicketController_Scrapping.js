@@ -115,22 +115,6 @@ class DawnBreakerTicketController {
     console.log(`${NUMBER_OF_PAGES * NUMBER_OF_FARMS} farm id extraído`);
     console.log('farm ids', util.inspect(farmIdList, { maxArrayLength: null }));
 
-    fs.writeFileSync(
-      path.resolve(CACHE_PATH, 'farms.js'),
-      farmIdList
-      // JSON.stringify(
-      //   {
-      //     success: true,
-      //     processingTime: `${endTimeInSeconds} seconds`,
-      //     title: 'Dawn Breaker Ticket Ranking',
-      //     updatedAt,
-      //     farms: rankingResult,
-      //   },
-      //   null,
-      //   4
-      // )
-    );
-
     // Divide o array em grupos com 100 ids
     const farmsRequest = new Array(Math.ceil(farmIdList.length / 100))
       .fill()

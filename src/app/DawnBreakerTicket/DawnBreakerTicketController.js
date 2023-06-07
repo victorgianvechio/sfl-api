@@ -24,15 +24,17 @@ class DawnBreakerTicketController {
     let rankingResult = [];
     let farmIdList = farms;
 
+    console.log('farmIdList.length', farmIdList.length);
+
     const initTime = Date.now();
     console.log('Processamento iniciado', new Date());
 
     // Divide o array em grupos com 100 ids
-    const farmsRequest = new Array(Math.ceil(farmIdList.length / 100))
+    let farmsRequest = new Array(Math.ceil(farmIdList.length / 100))
       .fill()
       .map(() => farmIdList.splice(0, 100));
 
-    console.log('\n\n-----------------------\n\n');
+    console.log('farmsRequest.length', farmsRequest.length);
 
     console.log('Consultando farms e gerando ranking\n');
 
@@ -77,6 +79,7 @@ class DawnBreakerTicketController {
     const endTimeInSeconds = endTime / 1000;
     console.log('Processamento encerrado', new Date());
     console.log('Tempo', `${endTimeInSeconds}s`);
+    console.log('---------------------------------------------\n\n');
 
     // Gera o arquivo JSON
     const updatedAt = new Date();
