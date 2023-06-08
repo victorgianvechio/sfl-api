@@ -22,18 +22,21 @@ class DawnBreakerTicketController {
 
   async generateFile() {
     let rankingResult = [];
+    let farmsList = [...FARMS_LIST];
 
-    console.log('farmIdList.length', FARMS_LIST.length);
+    console.log('farmIdList.length', farmsList.length);
+    console.log('FARMS_LIST', FARMS_LIST.length);
 
     const initTime = Date.now();
     console.log('Processamento iniciado', new Date());
 
     // Divide o array em grupos com 100 ids
-    let farmsRequest = new Array(Math.ceil(FARMS_LIST.length / 100))
+    let farmsRequest = new Array(Math.ceil(farmsList.length / 100))
       .fill()
-      .map(() => FARMS_LIST.splice(0, 100));
+      .map(() => farmsList.splice(0, 100));
 
     console.log('farmsRequest.length', farmsRequest.length);
+    console.log('FARMS_LIST', FARMS_LIST.length);
 
     console.log('Consultando farms e gerando ranking\n');
 
