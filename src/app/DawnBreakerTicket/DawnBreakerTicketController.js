@@ -57,17 +57,17 @@ class DawnBreakerTicketController {
           // Monta objeto
           const obj = {
             FarmID: key,
-            DawnBreakerTicket: value.inventory['Dawn Breaker Ticket'],
-            Quest: {
-              Description: value.hayseedHank.chore.description,
-              Completed: value.hayseedHank.dawnBreakerChoresCompleted,
-            },
-            LanternsCraftedByWeek: value.dawnBreaker.lanternsCraftedByWeek,
-            OldBottle: value.inventory['Old Bottle'],
-            Seaweed: value.inventory['Seaweed'],
-            IronCompass: value.inventory['Iron Compass'],
-            DavyJones: value.inventory['Heart of Davy Jones'],
-          };
+            BumpkinXP: value.bumpkin['experience'],
+            };
+          //   Quest: {
+          //     Description: value.hayseedHank.chore.description,
+          //     Completed: value.hayseedHank.dawnBreakerChoresCompleted,
+          //   },
+          //   LanternsCraftedByWeek: value.dawnBreaker.lanternsCraftedByWeek,
+          //   OldBottle: value.inventory['Old Bottle'],
+          //   Seaweed: value.inventory['Seaweed'],
+          //   IronCompass: value.inventory['Iron Compass'],
+          //   DavyJones: value.inventory['Heart of Davy Jones'],        
           rankingResult.push(obj);
         }
         count++;
