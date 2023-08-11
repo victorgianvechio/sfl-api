@@ -31,9 +31,9 @@ class DawnBreakerTicketController {
     console.log('Processamento iniciado', new Date());
 
     // Divide o array em grupos com 100 ids
-    let farmsRequest = new Array(Math.ceil(farmsList.length / 100))
+    let farmsRequest = new Array(Math.ceil(farmsList.length / 90))
       .fill()
-      .map(() => farmsList.splice(0, 100));
+      .map(() => farmsList.splice(0, 90));
 
     console.log('farmsRequest.length', farmsRequest.length);
     console.log('FARMS_LIST', FARMS_LIST.length);
