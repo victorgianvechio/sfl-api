@@ -66,10 +66,14 @@ class DawnBreakerTicketController {
           };
           rankingResult.push(obj);
         }
+        // Delay after successful batch
         await sleep(getFarms.delay);
       } catch (err) {
         console.log(`ERROR -  ${err}`);
         erroredIds.push(...request); // Add the problematic IDs to the array
+
+        // Delay after encountering an error
+        await sleep(getFarms.delay);
       }
       count++;
     }
@@ -99,5 +103,4 @@ class DawnBreakerTicketController {
     );
   }
 }
-
 export default new DawnBreakerTicketController();
