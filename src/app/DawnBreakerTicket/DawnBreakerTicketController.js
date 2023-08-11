@@ -23,25 +23,26 @@ class DawnBreakerTicketController {
   async generateFile() {
     let rankingResult = [];
     let farmsList = [...FARMS_LIST];
-
+  
     console.log('farmIdList.length', farmsList.length);
     console.log('FARMS_LIST', FARMS_LIST.length);
-
+  
     const initTime = Date.now();
     console.log('Processamento iniciado', new Date());
-
+  
     // Divide o array em grupos com 100 ids
-    let farmsRequest = new Array(Math.ceil(farmsList.length / 90))
+    let farmsRequest = new Array(Math.ceil(farmsList.length / 100))
       .fill()
-      .map(() => farmsList.splice(0, 90));
-
+      .map(() => farmsList.splice(0, 100));
+  
     console.log('farmsRequest.length', farmsRequest.length);
     console.log('FARMS_LIST', FARMS_LIST.length);
-
+  
     console.log('Consultando farms e gerando ranking\n');
-
+  
     let count = 1;
-
+    let erroredIds = []; // Array to store problematic IDs
+  
     // Itera nos grupos de 100 ids
     for (const request of farmsRequest) {
       console.log('request', count);
@@ -49,10 +50,10 @@ class DawnBreakerTicketController {
         const bodyRequest = {
           ids: request,
         };
-
+  
         // Busca as farms id (100 por vez)
         const farms = await axios.post(getFarms.url, bodyRequest);
-
+  
         for (const [key, value] of Object.entries(farms.data.farms)) {
           // Monta objeto
           const obj = {
@@ -61,31 +62,24 @@ class DawnBreakerTicketController {
             Land: value.inventory['Basic Land'],
             B_EA: value.bumpkin.activity['SFL Earned'],
             B_SP: value.bumpkin.activity['SFL Spent'],
-            };
-          //   Quest: {
-          //     Description: value.hayseedHank.chore.description,
-          //     Completed: value.hayseedHank.dawnBreakerChoresCompleted,
-          //   },
-          //   LanternsCraftedByWeek: value.dawnBreaker.lanternsCraftedByWeek,
-          //   OldBottle: value.inventory['Old Bottle'],
-          //   Seaweed: value.inventory['Seaweed'],
-          //   IronCompass: value.inventory['Iron Compass'],
-          //   DavyJones: value.inventory['Heart of Davy Jones'],        
+            // ... other properties
+          };
           rankingResult.push(obj);
         }
-        count++;
         await sleep(getFarms.delay);
       } catch (err) {
         console.log(`ERROR -  ${err}`);
+        erroredIds.push(...request); // Add the problematic IDs to the array
       }
+      count++;
     }
-
+  
     const endTime = Date.now() - initTime;
     const endTimeInSeconds = endTime / 1000;
     console.log('Processamento encerrado', new Date());
     console.log('Tempo', `${endTimeInSeconds}s`);
     console.log('---------------------------------------------\n\n');
-
+  
     // Gera o arquivo JSON
     const updatedAt = new Date();
     fs.writeFileSync(
@@ -97,12 +91,12 @@ class DawnBreakerTicketController {
           title: 'Dawn Breaker Ticket Ranking',
           updatedAt,
           farms: rankingResult,
+          erroredIds: erroredIds, // Add the array of errored IDs to the JSON
         },
         null,
         4
       )
     );
   }
-}
 
 export default new DawnBreakerTicketController();
