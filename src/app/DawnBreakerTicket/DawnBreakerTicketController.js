@@ -57,7 +57,10 @@ class DawnBreakerTicketController {
           // Monta objeto
           const obj = {
             FarmID: key,
-            BumpkinXP: value.bumpkin['experience'],
+            B_XP: value.bumpkin['experience'],
+            Land: value.inventory['Basic Land'],
+            B_EA: value.bumpkin.activity['SFL Earned'],
+            B_SP: value.bumpkin.activity['SFL Spent'],
             };
           //   Quest: {
           //     Description: value.hayseedHank.chore.description,
