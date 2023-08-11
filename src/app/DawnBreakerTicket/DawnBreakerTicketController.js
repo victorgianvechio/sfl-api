@@ -23,18 +23,18 @@ class DawnBreakerTicketController {
   async generateFile() {
     let rankingResult = [];
     let farmsList = [...FARMS_LIST];
-  
+
     console.log('farmIdList.length', farmsList.length);
     console.log('FARMS_LIST', FARMS_LIST.length);
-  
+
     const initTime = Date.now();
     console.log('Processamento iniciado', new Date());
-  
+
     // Divide o array em grupos com 100 ids
     let farmsRequest = new Array(Math.ceil(farmsList.length / 100))
       .fill()
       .map(() => farmsList.splice(0, 100));
-  
+
     console.log('farmsRequest.length', farmsRequest.length);
     console.log('FARMS_LIST', FARMS_LIST.length);
   
@@ -42,7 +42,7 @@ class DawnBreakerTicketController {
   
     let count = 1;
     let erroredIds = []; // Array to store problematic IDs
-  
+
     // Itera nos grupos de 100 ids
     for (const request of farmsRequest) {
       console.log('request', count);
@@ -50,7 +50,7 @@ class DawnBreakerTicketController {
         const bodyRequest = {
           ids: request,
         };
-  
+
         // Busca as farms id (100 por vez)
         const farms = await axios.post(getFarms.url, bodyRequest);
   
@@ -73,13 +73,13 @@ class DawnBreakerTicketController {
       }
       count++;
     }
-  
+
     const endTime = Date.now() - initTime;
     const endTimeInSeconds = endTime / 1000;
     console.log('Processamento encerrado', new Date());
     console.log('Tempo', `${endTimeInSeconds}s`);
     console.log('---------------------------------------------\n\n');
-  
+
     // Gera o arquivo JSON
     const updatedAt = new Date();
     fs.writeFileSync(
@@ -98,5 +98,6 @@ class DawnBreakerTicketController {
       )
     );
   }
+}
 
 export default new DawnBreakerTicketController();
