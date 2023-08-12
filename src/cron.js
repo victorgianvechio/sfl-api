@@ -7,7 +7,7 @@ export function monit() {
   executeFunction();
   
   // Cron to execute every 30 minutes after the immediate execution
-  Cron.schedule('*/1 * * *', () => {
+  Cron.schedule('0 */1 * * *', () => {
     executeFunction();
   });
 }
