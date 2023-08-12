@@ -58,10 +58,10 @@ class DawnBreakerTicketController {
           // Monta objeto
           const obj = {
             FarmID: key,
-            B_XP: value.bumpkin['experience'] || 0,
-            Land: value.inventory['Basic Land'],
-            B_EA: value.bumpkin.activity['SFL Earned'] || 0,
-            B_SP: value.bumpkin.activity['SFL Spent'] || 0,
+            B_XP: value.bumpkin && value.bumpkin['experience'] ? value.bumpkin['experience'] : 0,
+            Land: value.inventory ? value.inventory['Basic Land'] : 0,
+            B_EA: value.bumpkin && value.bumpkin.activity ? value.bumpkin.activity['SFL Earned'] : 0,
+            B_SP: value.bumpkin && value.bumpkin.activity ? value.bumpkin.activity['SFL Spent'] : 0,
             // ... other properties
           };
           rankingResult.push(obj);
