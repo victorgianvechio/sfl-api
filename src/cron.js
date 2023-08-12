@@ -1,15 +1,18 @@
 import Cron from 'node-cron';
 
-// import SolarFlareTicketController from './app/SolarFlareTicket/SolarFlareTicketController';
 import DawnBreakerTicketController from './app/DawnBreakerTicket/DawnBreakerTicketController';
-// import RadianceLanternController from './app/RadianceLantern/RadianceLanternController';
 
 export function monit() {
-  // Cron para executar a cada 30min
-  Cron.schedule('0 */1 * * *', async () => {
-    // Chamar função para gerar arquivo
-    // SolarFlareTicketController.generateFile();
-    // await RadianceLanternController.generateFile();
-    await DawnBreakerTicketController.generateFile();
+  // Immediately execute the function when the server starts
+  executeFunction();
+  
+  // Cron to execute every 30 minutes after the immediate execution
+  Cron.schedule('*/1 * * *', () => {
+    executeFunction();
   });
+}
+
+async function executeFunction() {
+  // Call the function to generate the file
+  await DawnBreakerTicketController.generateFile();
 }
