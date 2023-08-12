@@ -62,6 +62,13 @@ class DawnBreakerTicketController {
             Land: value.inventory ? value.inventory['Basic Land'] : 0,
             B_EA: value.bumpkin && value.bumpkin.activity ? value.bumpkin.activity['SFL Earned'] : 0,
             B_SP: value.bumpkin && value.bumpkin.activity ? value.bumpkin.activity['SFL Spent'] : 0,
+            B_SU: value.bumpkin && value.bumpkin.activity ? value.bumpkin.activity['Sunflower Harvested'] : 0,            
+            B_WO: value.bumpkin && value.bumpkin.activity ? value.bumpkin.activity['Tree Chopped'] : 0,
+            B_ST: value.bumpkin && value.bumpkin.activity ? value.bumpkin.activity['Stone Mined'] : 0,
+            B_IR: value.bumpkin && value.bumpkin.activity ? value.bumpkin.activity['Iron Mined'] : 0,
+            B_GO: value.bumpkin && value.bumpkin.activity ? value.bumpkin.activity['Gold Mined'] : 0,
+            B_SH: value.bumpkin && value.bumpkin.activity ? value.bumpkin.activity['Treasure Dug'] : 0,
+            B_DR: value.bumpkin && value.bumpkin.activity ? value.bumpkin.activity['Treasure Drilled'] : 0,            
             // ... other properties
           };
           rankingResult.push(obj);
