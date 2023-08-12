@@ -60,6 +60,7 @@ class DawnBreakerTicketController {
             FarmID: key,
             B_XP: value.bumpkin && value.bumpkin['experience'] ? value.bumpkin['experience'] : 0,
             Land: value.inventory ? value.inventory['Basic Land'] : 0,
+            DayR: value.dailyRewards ? value.dailyRewards['streaks'] : 0,
             B_EA: value.bumpkin && value.bumpkin.activity ? value.bumpkin.activity['SFL Earned'] : 0,
             B_SP: value.bumpkin && value.bumpkin.activity ? value.bumpkin.activity['SFL Spent'] : 0,
             B_SU: value.bumpkin && value.bumpkin.activity ? value.bumpkin.activity['Sunflower Harvested'] : 0,            
